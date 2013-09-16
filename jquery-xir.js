@@ -15,9 +15,9 @@
 
 		req_img.src = options.url + req_url_sep + $.param( options.data );
 
-    	if( options.complete ) {
-			req_img.onload = options.complete;
-		}
+        if( options.complete ) {
+            req_img.onload = options.complete;
+        }
     }
 
    $.xir = xir;
